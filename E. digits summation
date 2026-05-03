@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+    long long N,M,X;
+    scanf("%lld %lld",&N,&M);
+    X=N%10+M%10;
+    printf("%d",X);
+}
